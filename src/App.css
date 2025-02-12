@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Fira Mono', monospace;
+  }
+}
+
+
+
+@layer utilities {
+  
+    .bg-primary {
+      background-color: #222;
+      
+    }
+  }
