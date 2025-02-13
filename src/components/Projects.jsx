@@ -46,7 +46,7 @@ export function Projects() {
       <div className="p-4  border border-gray-700 rounded-lg">
         {activeTab === "webapps" && <div>
         <p className="hover:text-blue-400"><a href="https://unity-pages-frontend.vercel.app/">unity pages  </a><span className="text-gray-500">: create collabrative documents ,real time updates ,easy url sharing.</span></p>
-        <p className="mt-2 hover:text-blue-400"><a href="https://ghostnett.netlify.app/">ghost-net </a> <span className="text-gray-500">: anonymously chat on server , create private chat rooms, url sharing connectivity.</span></p>
+        <p className="mt-2 hover:text-blue-400"><a href="https://ghost-net-theta.vercel.app/">ghost-net </a> <span className="text-gray-500">: anonymously chat on server , create private chat rooms, url sharing connectivity.</span></p>
         <p className="mt-2 hover:text-blue-400"><a href="https://paytm-d.vercel.app/">paytm clone </a> <span className="text-gray-500"> : paytm clone developed to understand and practice web development concepts.</span></p>
         </div>}
 
