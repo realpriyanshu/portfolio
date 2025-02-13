@@ -1,13 +1,16 @@
 import { useState } from "react";
+import { easeInOut, motion } from "framer-motion";
 
 export function Projects() {
   const [activeTab, setActiveTab] = useState("webapps");
 
   return (
-    <div className=" w-4xl text-white text-sm animate-blur-fade-in">
+    <div className=" [perspective::1000px] [transform-style:preserve-3d] w-4xl text-white text-sm animate-blur-fade-in">
       {/* Buttons */}
       <div className="ml-6 space-x-10 mb-4">
         <button
+      
+        
           onClick={() => setActiveTab("webapps")} // ✅ Updates only when clicked
           className={`px-2 py-1 rounded-lg ${
             activeTab === "webapps" ? "bg-green-600" : "bg-gray-700"
@@ -17,14 +20,26 @@ export function Projects() {
         </button>
 
         
-        <button
+        <motion.button
+         whileHover={{
+          rotate:20,
+          rotateX:20,
+          rotateY:360
+         }}
+         style={{
+          translateZ:100
+         }}
+         transition={{
+          duration:0.2,
+          ease:easeInOut
+         }}
           onClick={() => setActiveTab("fun")} // ✅ Updates only when clicked
           className={`px-2 py-1 rounded-lg ${
             activeTab === "fun" ? "bg-blue-500" : "bg-gray-700"
           }`}
         >
           fun
-        </button>
+        </motion.button>
       </div>
 
       {/* Content */}
