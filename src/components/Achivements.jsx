@@ -2,7 +2,7 @@ export function Achivements(){
 
     return (
         <>
-        <div >
+        <div className="text-sm animate-blur-fade-in">
         <div className="text-sm font-medium text-white">achivements</div>
         <div className="mt-2">
             <li> institute rank 1 and global rank 134 in tcs codevita 2024</li>

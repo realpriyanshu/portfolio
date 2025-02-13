@@ -1,7 +1,7 @@
 export function Bio() {
   return (
     <>
-      <div>
+      <div className="text-sm animate-blur-fade-in">
         <div className="flex space-x-1 mt-1">
           {" "}
           <li>mern-stack engineer based in </li>

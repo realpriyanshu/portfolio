@@ -4,7 +4,7 @@ export function Projects() {
   const [activeTab, setActiveTab] = useState("webapps");
 
   return (
-    <div className=" w-3xl text-white">
+    <div className=" w-4xl text-white text-sm animate-blur-fade-in">
       {/* Buttons */}
       <div className="ml-6 space-x-10 mb-4">
         <button
