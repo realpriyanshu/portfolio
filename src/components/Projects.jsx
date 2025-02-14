@@ -12,7 +12,7 @@ export function Projects() {
       
         
           onClick={() => setActiveTab("webapps")} // ✅ Updates only when clicked
-          className={`px-2 py-1 rounded-lg ${
+          className={`px-2 py-1 rounded-lg hover:scale-80 transition-transform ${
             activeTab === "webapps" ? "bg-green-600" : "bg-gray-700"
           }`}
         >
